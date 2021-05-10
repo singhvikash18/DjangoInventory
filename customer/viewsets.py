@@ -9,3 +9,7 @@ class EmplyoeeViewset(viewsets.ModelViewSet):
 class ItemGroupViewset(viewsets.ModelViewSet):
     queryset = models.ItemGroup.objects.all()
     serializer_class = serializers.ItemGroupSerializers    
+
+class InvoiceViewset(viewsets.ModelViewSet):
+    queryset = models.Invoice.objects.all()
+    serializer_class = serializers.InvoiceSerializers      
