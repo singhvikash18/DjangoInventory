@@ -56,4 +56,4 @@ psycopg2==2.8.6
  virtualenv==20.4.2
  virtualenvwrapper-win==1.2.6
 whitenoise==5.2.0
-setuptools==0.7.3
+#setuptools==0.7.3
