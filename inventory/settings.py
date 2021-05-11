@@ -25,7 +25,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.heroku.com']
+ALLOWED_HOSTS = ['vksinventorydjango.herokuapp.com','127.0.0.1']
 
 
 # Application definition
